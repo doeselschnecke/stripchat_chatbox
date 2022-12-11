@@ -1,0 +1,147 @@
+/*
+Stripchat chat browser source CSS for OBS
+Features: Transparent Background, slide animation of new messages (1 second)
+
+Just set the URL as https://stripchat.com/YOURUSERNAME
+And paste this entnire file into the CSS box
+Original by doeselschnecke
+*/
+
+.model-chat {
+	height:500px;
+	opacity: 100;
+	background: black !important;
+}
+
+.view-cam-page-main   {
+background-color: black !important;
+}
+.model-chat-normal {
+	height:420px;
+	overflow:hidden;
+}
+   @keyframes slide {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+.message-base {
+	background-color: transparent !important;
+	border-bottom: 0px !important;
+	text-align:left !important;
+	font-family: Coming Soon !important;
+	font-size: 18px !important;
+ 	width: 450px;
+	animation-name: slide;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+.message-base.m-line-goal::before {
+	display: none!important;
+}
+.goal-message {
+	text-transform: lowercase !important;
+}
+
+.goal-block-amount {
+	color: lightpink !important;
+}
+.goal-description {
+	border-top: 0px !important;
+}
+button {
+	display: none!important;
+}
+.green {
+	display: none!important;
+}
+.message-base.m-bg-public-tip {
+	background-color: transparent !important;
+}
+.lovense-tip-message {
+	display: none !important;
+}
+.login-required-message {
+	display: none !important;
+}
+.tokens-giveaway-message {
+	display: none !important;
+}
+.auth-modal-signup {
+	display: none !important;
+}
+.visitors-agreement-modal {
+	display: none !important;
+}
+.sign-up-new .modal-content .modal-header-none {
+	display: none !important;
+}
+.cookies-reminder {
+	display: none !important;
+}
+header {
+	display: none !important;
+}
+footer {
+	display: none !important;
+}
+.view-cam-model-tags {
+	display: none !important;
+}
+.header-sub {
+	display: none !important;
+}
+.video {
+	display: none !important;
+}
+.model-list-wrapper {
+	display: none !important;
+}
+.model-chat-nav {
+	display: none !important;
+}
+
+.model-chat-controls {
+	display: none !important;
+}
+
+.modal-content {
+	display: none !important;
+}
+.modal-header-outside {
+	display: none !important;
+}
+.with-activity-list {
+	display: none !important;
+}
+
+.toy-message-toy {
+	display: none !important;
+}
+
+.system-text-message-announce {
+	display: none !important;
+}
+
+.lottery {
+	display: none !important;
+}
+.offer {
+	display: none !important;
+}
+.view-cam-watching-limit {
+	display: none !important;
+}
+html {
+	overflow:hidden!important;
+	background: black!important;
+}
+.model-chat-actions-container-mobile {
+display: none!important;
+}
+#promo-banner-id-buyOldGuests {
+display: none!important;
+}
+.promo-banner-wrapper {
+display: none!important;
+}
